@@ -309,6 +309,12 @@ form .form-group{
     background: var(--green); color: white;
 }
 
+/* ----media queries pour le message bienvenue---- */
+@media screen and (max-width: 650px){
+    .contenue-message{ width:400px; }
+    .contenue-message img{ width:150px; height:150px }
+}
+
 
 /*-----------------------------------fin------------------------------------------*/
 
