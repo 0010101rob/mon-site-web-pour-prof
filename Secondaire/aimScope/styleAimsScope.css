@@ -1,0 +1,9 @@
+.barre_de_navigation{
+    display:flex; justify-content: space-between;
+    gap:15px; 
+}
+
+@media screen and (max-width:920px){
+	main{grid-template-columns:1fr; gap:24px}
+	.barre_de_navigation{ display:flex; justify-content: left; }
+}

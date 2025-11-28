@@ -1,0 +1,25 @@
+main{
+	display:grid;grid-template-columns:1fr 360px;gap:24px;
+	margin-top: 10px;
+}
+#ajouter{
+	width: 100px; height: 40px;
+	border-radius: 1em;
+	background: black; color: white;
+	margin: auto;
+}
+#ajouter:active{
+	background: white; color: black;
+}
+.barre_de_navigation{
+    display:flex; justify-content: space-between;
+    gap:15px; 
+}
+
+@media screen and (max-width:920px){
+	main{grid-template-columns:1fr; gap:24px}
+	.barre_de_navigation{ display:flex; justify-content: left; }
+}
+@media screen and (max-width:769px){
+	aside{ display:none; }
+}
